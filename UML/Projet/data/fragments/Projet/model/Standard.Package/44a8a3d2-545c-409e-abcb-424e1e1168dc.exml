@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Crea offre" version="4">
+  <OBJECT>
+    <ID name="Activity Crea offre" mc="Standard.Package" uid="44a8a3d2-545c-409e-abcb-424e1e1168dc"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activity Crea offre]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Creation offre" mc="Standard.Activity" uid="0d448503-b9c0-451e-bf6d-3a9c83e7dc00"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

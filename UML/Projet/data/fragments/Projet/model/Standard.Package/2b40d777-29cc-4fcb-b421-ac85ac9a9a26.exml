@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Projet" version="4">
+  <OBJECT>
+    <ID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <PID name="Projet" mc="Standard.Project" uid="a21941d9-70af-45aa-88dd-b2f60b38da65"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Projet]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Use case" mc="Standard.Package" uid="031da60f-e5d8-47bd-8b7b-6c69647c28e2"/>
+        <COMPID name="Activity Crea offre" mc="Standard.Package" uid="44a8a3d2-545c-409e-abcb-424e1e1168dc"/>
+        <COMPID name="Activity Crea compte" mc="Standard.Package" uid="e18ec2c5-13c1-4537-a868-0aa1244c491c"/>
+        <COMPID name="Activity Modif compte" mc="Standard.Package" uid="e3a35d27-f117-4848-8f5a-f39de5b198fa"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

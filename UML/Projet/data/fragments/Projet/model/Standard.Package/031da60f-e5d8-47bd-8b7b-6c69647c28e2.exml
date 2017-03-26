@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use case" version="4">
+  <OBJECT>
+    <ID name="Use case" mc="Standard.Package" uid="031da60f-e5d8-47bd-8b7b-6c69647c28e2"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Use case]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Entreprise" mc="Standard.Actor" uid="b19f0f26-4ab0-453d-919c-da18cc214a6e"/>
+        <COMPID name="Se connecter à une base de données" mc="Standard.UseCase" uid="29b3993b-2cc6-4fe2-8c7c-15234e763098"/>
+        <COMPID name="Créer une entreprise" mc="Standard.UseCase" uid="c1a20ed9-ad61-45d7-b095-26dfa6c7494e"/>
+        <COMPID name="Créer une offre de stage" mc="Standard.UseCase" uid="6e73ce0a-332b-404b-94d4-1334075343af"/>
+        <COMPID name="Consulter la liste des étudiants" mc="Standard.UseCase" uid="25fa0aa7-ba01-4af0-a789-89d18fb9b193"/>
+        <COMPID name="Etudiant" mc="Standard.Actor" uid="88b9fad4-fd53-426f-accb-d66ee88f77c4"/>
+        <COMPID name="Créer un étudiant" mc="Standard.UseCase" uid="308a646b-01be-46bd-940e-bce2513aecf0"/>
+        <COMPID name="Consulter la liste des offres de stage" mc="Standard.UseCase" uid="6302cf09-310a-4e8f-a35d-e448e7d42916"/>
+        <COMPID name="S'identifier" mc="Standard.UseCase" uid="2de7bee0-d2f0-4660-a4db-49ac1314386b"/>
+        <COMPID name="Modifier son compte" mc="Standard.UseCase" uid="c849b58e-15bc-40d1-aa9f-70b4c650ed72"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="projet Use Case diagram" mc="Standard.UseCaseDiagram" uid="de787b32-23b4-4022-903d-436f3849b4b5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

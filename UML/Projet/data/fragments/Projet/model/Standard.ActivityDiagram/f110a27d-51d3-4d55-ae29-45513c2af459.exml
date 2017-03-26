@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity diagram Creation compte" version="4">
+  <OBJECT>
+    <ID name="Activity diagram Creation compte" mc="Standard.ActivityDiagram" uid="f110a27d-51d3-4d55-ae29-45513c2af459"/>
+    <PID name="Creation compte" mc="Standard.Activity" uid="7546d48b-c7e7-4593-a647-566bcda49b45"/>
+    <ATTRIBUTES>
+      <ATT name="IsVertical">false</ATT>
+      <ATT name="UiDataVersion">149</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Activity diagram Creation compte]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="Utilisateur" mc="Standard.ActivityPartition" uid="d182c9be-5840-4cbb-9b96-695f0a9cc4ab"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Programme" mc="Standard.ActivityPartition" uid="16d97f2f-4c77-4361-b445-9af49ca495ff"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Base de données" mc="Standard.ActivityPartition" uid="72f16ade-07e7-4c73-bfee-d0659728f649"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Initial Node" mc="Standard.InitialNode" uid="cd9c6be6-3829-4874-9e6f-3e412985ae39"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Demande de création de compte" mc="Standard.OpaqueAction" uid="44489980-d249-403c-9126-5119e216e056"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Afficher l'espace de création de compte" mc="Standard.OpaqueAction" uid="b1173459-cf9c-4572-95cf-6534d7887a7a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Création du compte" mc="Standard.OpaqueAction" uid="1a12245e-1f9d-493a-b5ab-e71045761d5f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="d3c86d63-1f34-4337-a033-0a656c38cdbe"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="06fcc00e-d019-433f-88e2-75dcd5a2c0fd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Saisir les informations" mc="Standard.OpaqueAction" uid="d4bb480b-f2c7-494f-b34d-b271d28a2542"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="14e9a59c-f9f2-4757-8d32-5136c6df8091"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="23601885-fc52-4492-a97e-198c28107990"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Activity Final Node" mc="Standard.ActivityFinalNode" uid="2edcf2f2-6b6e-4b91-9825-a9a13ccef177"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ControlFlow" mc="Standard.ControlFlow" uid="992d63e9-2ee2-41a4-b6d9-324cc253dcd9"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="bcf9c932-3968-42a5-9aa7-1964e0de1e12"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
