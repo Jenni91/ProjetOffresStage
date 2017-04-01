@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Class" version="4">
+  <OBJECT>
+    <ID name="Class" mc="Standard.Package" uid="7213392a-20a9-450d-a9b8-f9833427fddb"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Class]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Entreprise" mc="Standard.Class" uid="586616d9-0471-4ecc-a506-7e2d1431e552"/>
+        <COMPID name="Etudiant" mc="Standard.Class" uid="55412738-cb0d-4600-bd99-41d2950ffeae"/>
+        <COMPID name="Stage" mc="Standard.Class" uid="d60a5e6d-a4a8-439f-900d-a9fa118e9cda"/>
+        <COMPID name="EntrepriseModel" mc="Standard.Class" uid="19ccf4a0-f00c-4122-b89e-f22905df8763"/>
+        <COMPID name="EtudiantModel" mc="Standard.Class" uid="c12a4e97-9ed0-482e-a578-3f5a8a0ade34"/>
+        <COMPID name="StageModel" mc="Standard.Class" uid="20c4e3d9-2d5e-4c13-ab00-78e0d41fe91c"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Class Class diagram" mc="Standard.ClassDiagram" uid="7d69952a-22dc-4aa2-974d-5faff1e2febb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
