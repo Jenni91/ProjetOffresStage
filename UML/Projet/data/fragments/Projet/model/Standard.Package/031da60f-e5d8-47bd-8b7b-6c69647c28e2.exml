@@ -16,15 +16,18 @@
       <COMP relation="OwnedElement">
         <COMPID name="Entreprise" mc="Standard.Actor" uid="b19f0f26-4ab0-453d-919c-da18cc214a6e"/>
         <COMPID name="Se connecter à une base de données" mc="Standard.UseCase" uid="29b3993b-2cc6-4fe2-8c7c-15234e763098"/>
-        <COMPID name="Créer une entreprise" mc="Standard.UseCase" uid="c1a20ed9-ad61-45d7-b095-26dfa6c7494e"/>
+        <COMPID name="Créer un compte" mc="Standard.UseCase" uid="c1a20ed9-ad61-45d7-b095-26dfa6c7494e"/>
         <COMPID name="Créer une offre de stage" mc="Standard.UseCase" uid="6e73ce0a-332b-404b-94d4-1334075343af"/>
         <COMPID name="Consulter la liste des étudiants" mc="Standard.UseCase" uid="25fa0aa7-ba01-4af0-a789-89d18fb9b193"/>
         <COMPID name="Etudiant" mc="Standard.Actor" uid="88b9fad4-fd53-426f-accb-d66ee88f77c4"/>
-        <COMPID name="Créer un étudiant" mc="Standard.UseCase" uid="308a646b-01be-46bd-940e-bce2513aecf0"/>
         <COMPID name="Consulter la liste des offres de stage" mc="Standard.UseCase" uid="6302cf09-310a-4e8f-a35d-e448e7d42916"/>
         <COMPID name="S'identifier" mc="Standard.UseCase" uid="2de7bee0-d2f0-4660-a4db-49ac1314386b"/>
         <COMPID name="Modifier son compte" mc="Standard.UseCase" uid="c849b58e-15bc-40d1-aa9f-70b4c650ed72"/>
         <COMPID name="Candidater à une offre" mc="Standard.UseCase" uid="85d20a5d-f439-439a-a18c-fe13405eeac5"/>
+        <COMPID name="Supprimer candidature" mc="Standard.UseCase" uid="48e76295-8dc1-4527-ba74-77134679dc9b"/>
+        <COMPID name="Supprimer son compte" mc="Standard.UseCase" uid="ffc416e3-3887-4660-9461-89ca2a802771"/>
+        <COMPID name="Consulter la liste de ses offres de stages" mc="Standard.UseCase" uid="417e2dac-991e-4cc2-8bab-333103f05512"/>
+        <COMPID name="Modifier offre de stage" mc="Standard.UseCase" uid="2ce705ca-1e49-495d-a745-1ca15ff79dfe"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="projet Use Case diagram" mc="Standard.UseCaseDiagram" uid="de787b32-23b4-4022-903d-436f3849b4b5"/>
