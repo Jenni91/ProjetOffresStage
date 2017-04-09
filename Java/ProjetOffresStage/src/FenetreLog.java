@@ -21,6 +21,10 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import javax.swing.JPasswordField;
 
+/**
+ * Fenetre d'accueil pour s'identifier en tant qu'entreprise ou étudiant
+ */
+
 public class FenetreLog extends JFrame {
 
 	private JPanel contentPane;
@@ -187,7 +191,7 @@ public class FenetreLog extends JFrame {
 				if(entreprise!=null){
 					FenetreEntreprise fent = new FenetreEntreprise(entreprise);
 					fent.setVisible(true);
-					frame.setVisible(false);
+					dispose();
 				}else{
 					JOptionPane.showMessageDialog(null, "Vos identifiants sont incorrectes. Vérifiez que vous êtes bien sur la bonne base de donnée.");
 				}

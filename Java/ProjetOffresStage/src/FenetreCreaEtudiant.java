@@ -16,6 +16,10 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import javax.swing.JPasswordField;
 
+/**
+ * Fenetre permettant de créer un compte étudiant
+ */
+
 public class FenetreCreaEtudiant extends JFrame {
 
 	private JPanel contentPane;

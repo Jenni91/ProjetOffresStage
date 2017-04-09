@@ -17,6 +17,10 @@ import java.util.List;
 import javax.swing.JComboBox;
 import javax.swing.JEditorPane;
 
+/**
+ * Fenetre permettant de consulter la liste des étudiants
+ */
+
 public class FenetreVoirEtudiants extends JFrame {
 
 	private JPanel contentPane;
@@ -188,12 +192,6 @@ public class FenetreVoirEtudiants extends JFrame {
 					btnPrecedent.setEnabled(false);
 				}
 				
-				/*if(em.findAll().listIterator().hasPrevious()){
-					textNom.setText(em.findAll().get(i).getNom());
-					textLibelle.setText(sm.findAll().get(i).getLibelle());
-				}else{
-					
-				}*/
 			}
 		});
 		btnPrecedent.setBounds(104, 431, 115, 23);
@@ -220,12 +218,6 @@ public class FenetreVoirEtudiants extends JFrame {
 					btnSuivant.setEnabled(false);
 				}
 				
-				/*if(em.findAll().listIterator().hasNext()){
-					textNom.setText(em.findAll().get(i).getNom());
-					textLibelle.setText(sm.findAll().get(i).getLibelle());
-				}else{
-					
-				}*/
 			}
 		});
 		btnSuivant.setBounds(229, 431, 115, 23);

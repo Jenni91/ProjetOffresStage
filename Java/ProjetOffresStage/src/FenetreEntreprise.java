@@ -13,6 +13,10 @@ import java.awt.event.MouseEvent;
 import javax.swing.SwingConstants;
 import javax.swing.JButton;
 
+/**
+ * Fenetre d'accueil de l'entreprise
+ */
+
 public class FenetreEntreprise extends JFrame {
 
 	private JPanel contentPane;

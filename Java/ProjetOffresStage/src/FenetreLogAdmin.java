@@ -12,6 +12,10 @@ import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JButton;
 
+/**
+ * Fenetre d'identification de l'administrateur
+ */
+
 public class FenetreLogAdmin extends JFrame {
 
 	private JPanel contentPane;

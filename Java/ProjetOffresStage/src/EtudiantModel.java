@@ -5,6 +5,8 @@ import java.util.List;
 
 public class EtudiantModel {
 
+	private StageModel sm = new StageModel();
+	
 	/**
 	 * Creer un nouvel étudiant dans la table Etudiant d'après un objet Etudiant
 	 * @param e
@@ -47,6 +49,7 @@ public class EtudiantModel {
 				while(rs.next()){
 					Etudiant etu = new Etudiant();
 
+					etu.setId(rs.getInt("id"));
 					etu.setNom(rs.getString("nom"));
 					etu.setPrenom(rs.getString("prenom"));
 					etu.setEtabl(rs.getString("etabl"));
@@ -137,16 +140,44 @@ public class EtudiantModel {
 	}
 	
 	/**
+	 * Mettre à jour les informations de l'étudiant dans la base de donnée sans changer le mot de passe
+	 * @return 
+	 */
+	public boolean updateAdmin(Etudiant newE){
+		try{
+			PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("UPDATE Etudiant SET Nom = ?, Prenom = ?, Etabl = ?, Filiere = ?, Niveau = ?, Ville = ?, Mail = ?, Tel = ? WHERE ID = ?");
+			ps.setString(1,newE.getNom());
+			ps.setString(2,newE.getPrenom());
+			ps.setString(3,newE.getEtabl());
+			ps.setString(4,newE.getFiliere());
+			ps.setString(5,newE.getNiveau());
+			ps.setString(6,newE.getVille());
+			ps.setString(7,newE.getMail());
+			ps.setString(8,newE.getTel());			
+			ps.setInt(9,newE.getId());
+			
+			return ps.executeUpdate()>0;
+		
+		}catch (Exception err){
+			System.out.println(err.getMessage());
+			return false;
+		}
+	}
+	
+	/**
 	 * Supprimer l'étudiant de la base de donnée d'après son id
 	 * @return 
 	 */
 	public boolean delete(Etudiant etudiant){
 		try{
 			PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("DELETE FROM Etudiant WHERE id = ?");
-
 			ps.setInt(1,etudiant.getId());
 			
-			return ps.executeUpdate()>0;
+			ps.executeUpdate();
+			
+			sm.deleteCandidatureByEtudiant(etudiant);
+			
+			return true;
 		
 		}catch (Exception err){
 			System.out.println(err.getMessage());

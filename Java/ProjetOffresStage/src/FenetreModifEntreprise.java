@@ -18,6 +18,10 @@ import java.util.List;
 
 import javax.swing.JPasswordField;
 
+/**
+ * Fenetre permettant de modifier les informations de l'entreprise connectée
+ */
+
 public class FenetreModifEntreprise extends JFrame {
 
 	private JPanel contentPane;
@@ -165,7 +169,7 @@ public class FenetreModifEntreprise extends JFrame {
 		btnAnnuler.setBounds(250, 369, 89, 23);
 		contentPane.add(btnAnnuler);
 		
-		JLabel lblMotDePasse = new JLabel("Mot de passe");
+		JLabel lblMotDePasse = new JLabel("Mot de passe (ancien ou nouveau)");
 		lblMotDePasse.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblMotDePasse.setForeground(Color.WHITE);
 		lblMotDePasse.setBounds(47, 281, 194, 14);
@@ -174,7 +178,6 @@ public class FenetreModifEntreprise extends JFrame {
 		passwordField = new JPasswordField();
 		passwordField.setBounds(251, 278, 148, 20);
 		contentPane.add(passwordField);
-		passwordField.setText(entreprise.getMdp());
 
 		JButton btnEnvoyer = new JButton("Envoyer");
 		btnEnvoyer.addMouseListener(new MouseAdapter() {
@@ -194,13 +197,13 @@ public class FenetreModifEntreprise extends JFrame {
 				newEnt.setMdp(passwordField.getText());
 				
 				if(em.update(newEnt)){
-					JOptionPane.showMessageDialog(null, "Les informations de votre entreprise ont été mise à jour");
+					JOptionPane.showMessageDialog(null, "Vos informations ont été mise à jour");
 					dispose();
 					FenetreEntreprise fe = new FenetreEntreprise(newEnt);
 					fe.setVisible(true);
 				}
 				else{
-					JOptionPane.showMessageDialog(null, "Echec de la mise à jou des informations de l'entreprise");
+					JOptionPane.showMessageDialog(null, "Echec de la mise à jour de vos informations");
 					FenetreEntreprise fe = new FenetreEntreprise(entreprise);
 					fe.setVisible(true);
 				}

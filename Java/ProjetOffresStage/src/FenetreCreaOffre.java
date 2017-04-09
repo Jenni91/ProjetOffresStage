@@ -24,6 +24,10 @@ import javax.swing.JComboBox;
 import javax.swing.JEditorPane;
 import com.toedter.calendar.JDateChooser;
 
+/**
+ * Fenetre permettant de créer une offre de stage
+ */
+
 public class FenetreCreaOffre extends JFrame {
 
 	private JPanel contentPane;

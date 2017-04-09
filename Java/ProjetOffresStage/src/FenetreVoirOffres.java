@@ -21,6 +21,10 @@ import javax.swing.JComboBox;
 import javax.swing.JEditorPane;
 import javax.swing.JToggleButton;
 
+/**
+ * Fenetre permettant à un étudiant de consulter toutes les offres de la BDD
+ */
+
 public class FenetreVoirOffres extends JFrame {
 
 	private JPanel contentPane;

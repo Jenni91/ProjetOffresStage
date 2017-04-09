@@ -132,10 +132,12 @@ public class StageModel {
 	public boolean delete(Stage stage){
 		try{
 			PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("DELETE FROM Stage WHERE id = ?");
-
 			ps.setInt(1,stage.getId());
 			
-			return ps.executeUpdate()>0;
+			ps.executeUpdate();
+			deleteCandidatureByStage(stage);
+			
+			return true;
 		
 		}catch (Exception err){
 			System.out.println(err.getMessage());
@@ -149,9 +151,15 @@ public class StageModel {
 	 */
 	public boolean deleteByIde(Entreprise entreprise){
 		try{
-			PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("DELETE FROM Stage WHERE ide = ?");
-
+			PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("DELETE FROM Stage WHERE ide = ? RETURNING id");
 			ps.setInt(1,entreprise.getId());
+			
+			ResultSet rs = ps.executeQuery();
+			while(rs.next()){
+				ps = ConnectionPostgresql.getConnection().prepareStatement("DELETE FROM Candidature WHERE ID_Stage = ?");
+				ps.setInt(1,rs.getInt("id"));
+				ps.executeUpdate();
+			}
 			
 			return ps.executeUpdate()>0;
 		
@@ -162,7 +170,7 @@ public class StageModel {
 	}
 	
 	/**
-	 * Supprimer les stages expirés de la base de donnée 
+	 * Supprimer les stages expirés de la base de données 
 	 * @return 
 	 */
 	public boolean deleteExpire(){

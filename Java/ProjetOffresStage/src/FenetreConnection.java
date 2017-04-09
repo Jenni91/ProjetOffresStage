@@ -16,6 +16,10 @@ import java.awt.Color;
 import java.awt.SystemColor;
 import java.awt.Window;
 
+/**
+ * Fenetre permettant de modifier les informations de la base de données
+ */
+
 public class FenetreConnection extends JFrame {
 
 	private JPanel contentPane;

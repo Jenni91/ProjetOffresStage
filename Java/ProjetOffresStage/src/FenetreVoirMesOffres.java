@@ -26,6 +26,10 @@ import javax.swing.JComboBox;
 import javax.swing.JEditorPane;
 import com.toedter.calendar.JDateChooser;
 
+/**
+ * Fenetre permettant à l'entreprise connectée de gerer ses offres de stages
+ */
+
 public class FenetreVoirMesOffres extends JFrame {
 
 	private JPanel contentPane;
@@ -267,6 +271,5 @@ public class FenetreVoirMesOffres extends JFrame {
 		dateChooser.setDate(listeStage.get(i).getDateDeb());
 		textDuree.setText(String.valueOf(listeStage.get(i).getDuree()));
 		paneDescr.setText(listeStage.get(i).getDesc());
-		//dateFormat.format
 	}
 }

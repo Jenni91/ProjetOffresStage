@@ -5,6 +5,8 @@ import java.util.List;
 
 public class EntrepriseModel {
 
+	private StageModel sm = new StageModel();
+	
 	/**
 	 * Creer une nouvelle entreprise dans la table Entreprise d'après un objet Entreprise
 	 * @param e
@@ -46,7 +48,14 @@ public class EntrepriseModel {
 				while(rs.next()){
 					Entreprise ent = new Entreprise();
 					
-					ent.setNom(rs.getString("nom"));
+					ent.setId(rs.getInt("id"));
+					ent.setNom(rs.getString("Nom"));
+					ent.setAdrRue(rs.getString("AdrRue"));
+					ent.setAdrCP(rs.getString("AdrCP"));
+					ent.setAdrVille(rs.getString("AdrVille"));
+					ent.setMail(rs.getString("Mail"));
+					ent.setTel(rs.getString("Tel"));
+					ent.setSecteur(rs.getString("Secteur"));
 					
 					listStage.add(ent);
 					
@@ -124,6 +133,30 @@ public class EntrepriseModel {
 				return false;
 			}
 		}
+		
+		/**
+		 * Mettre à jour les informations de l'entreprise dans la base de donnée sans changer le mot de passe
+		 * @return 
+		 */
+		public boolean updateAdmin(Entreprise newE){
+				try{
+				PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("UPDATE Entreprise SET nom = ?, adrRue = ?, adrCP = ?, adrVille = ?, mail = ?, tel = ?, secteur = ? WHERE ID = ?");
+				ps.setString(1,newE.getNom());
+				ps.setString(2,newE.getAdrRue());
+				ps.setString(3,newE.getAdrCP());
+				ps.setString(4,newE.getAdrVille());
+				ps.setString(5,newE.getMail());
+				ps.setString(6,newE.getTel());
+				ps.setString(7,newE.getSecteur());
+				ps.setInt(8,newE.getId());
+				
+				return ps.executeUpdate()>0;
+				
+			}catch (Exception err){
+				System.out.println(err.getMessage());
+				return false;
+			}
+		}
 
 		/**
 		 * Supprimer l'entreprise de la base de donnée d'après son id
@@ -134,8 +167,11 @@ public class EntrepriseModel {
 				PreparedStatement ps = ConnectionPostgresql.getConnection().prepareStatement("DELETE FROM Entreprise WHERE id = ?");
 
 				ps.setInt(1,entreprise.getId());
+				ps.executeUpdate();
 				
-				return ps.executeUpdate()>0;
+				sm.deleteByIde(entreprise);
+				
+				return true;
 			
 			}catch (Exception err){
 				System.out.println(err.getMessage());
