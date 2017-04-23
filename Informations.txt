@@ -1,0 +1,15 @@
+********************************
+* INFORMATIONS COMPLEMENTAIRES *
+********************************
+
+
+La base de données par defaut
+Nom : gestionStages
+Utilisateur : postregresql
+Mot de passe : 1234
+
+
+Dans l'application
+Identifiant de l'administrateur : admin
+Mot de passe de l'administrateur : admin
+
