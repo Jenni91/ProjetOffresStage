@@ -19,6 +19,10 @@
         <COMPID name="Activity Crea compte" mc="Standard.Package" uid="e18ec2c5-13c1-4537-a868-0aa1244c491c"/>
         <COMPID name="Activity Modif compte" mc="Standard.Package" uid="e3a35d27-f117-4848-8f5a-f39de5b198fa"/>
         <COMPID name="Class" mc="Standard.Package" uid="7213392a-20a9-450d-a9b8-f9833427fddb"/>
+        <COMPID name="Activity Supp compte" mc="Standard.Package" uid="e31ae06d-400e-409f-bcca-1978fbba91d0"/>
+        <COMPID name="Activity Supp offre" mc="Standard.Package" uid="5277fc1f-c4b0-4a98-a8e2-6addf037f8db"/>
+        <COMPID name="Activity Modif offre" mc="Standard.Package" uid="954e4666-7320-4287-9d54-38a89e4817aa"/>
+        <COMPID name="Activity Postuler" mc="Standard.Package" uid="7c1ded2c-7baa-45dc-a844-6eece93c93e6"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

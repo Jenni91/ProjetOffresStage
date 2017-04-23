@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Postuler" version="4">
+  <OBJECT>
+    <ID name="Activity Postuler" mc="Standard.Package" uid="7c1ded2c-7baa-45dc-a844-6eece93c93e6"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activity Postuler]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Modifier compte" mc="Standard.Activity" uid="63f76335-3ef0-4f76-a23a-950c1bcd497b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

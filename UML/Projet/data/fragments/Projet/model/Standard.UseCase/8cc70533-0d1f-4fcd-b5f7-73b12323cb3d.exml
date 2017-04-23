@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Se connecter à une base de données" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Supprimer les offres dépassées" version="4">
   <OBJECT>
-    <ID name="Se connecter à une base de données" mc="Standard.UseCase" uid="29b3993b-2cc6-4fe2-8c7c-15234e763098"/>
-    <PID name="projet" mc="Standard.Package" uid="031da60f-e5d8-47bd-8b7b-6c69647c28e2"/>
+    <ID name="Supprimer les offres dépassées" mc="Standard.UseCase" uid="8cc70533-0d1f-4fcd-b5f7-73b12323cb3d"/>
+    <PID name="Use case" mc="Standard.Package" uid="031da60f-e5d8-47bd-8b7b-6c69647c28e2"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Se connecter à une base de données]]></ATT>
+      <ATT name="Name"><![CDATA[Supprimer les offres dépassées]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedEnd">
         <OBJECT>
-          <ID name="" mc="Standard.AssociationEnd" uid="5249da52-6ef6-4b96-b481-97d37ce6b994"/>
+          <ID name="" mc="Standard.AssociationEnd" uid="67f8b9db-bafe-43a3-8128-5159a86d18cd"/>
           <ATTRIBUTES>
             <ATT name="Aggregation">KindIsAssociation</ATT>
             <ATT name="IsChangeable">true</ATT>
@@ -33,11 +33,11 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Etudiant" mc="Standard.Actor" uid="88b9fad4-fd53-426f-accb-d66ee88f77c4"/>
+              <ID name="Administrateur" mc="Standard.Actor" uid="43b312a3-158e-4a9e-84ee-59e5950402e7"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="399d7d0d-49e6-43ea-ab69-4e1be96ff024"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="b087b5fe-96a9-4e8a-80a7-586ca09d8fa1"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -55,11 +55,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="" mc="Standard.AssociationEnd" uid="5249da52-6ef6-4b96-b481-97d37ce6b994"/>
+                    <COMPID name="" mc="Standard.AssociationEnd" uid="67f8b9db-bafe-43a3-8128-5159a86d18cd"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="e3ff4272-6c71-49db-acc1-3b2cee399330"/>
+                      <ID name="" mc="Standard.Association" uid="625b6823-ca53-412a-a187-6d143ae52ca6"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -71,14 +71,14 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="e3ff4272-6c71-49db-acc1-3b2cee399330"/>
+              <COMPID name="" mc="Standard.Association" uid="625b6823-ca53-412a-a187-6d143ae52ca6"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f7171758-f130-4604-8175-f2cfee5eccbb"/>
+          <ID name="" mc="Infrastructure.Note" uid="bb75b8fa-92fb-4af1-8238-382a9a7c71f4"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -92,7 +92,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="87b06e0c-8fea-4067-af35-63311c5c164d"/>
+          <ID name="" mc="Infrastructure.Note" uid="6b01d058-07b8-4098-8296-99cb1e323463"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -106,7 +106,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="1b78fd5b-86a0-4cdc-9567-5f3ba92249d1"/>
+          <ID name="" mc="Infrastructure.Note" uid="20a3b186-e79c-4439-8b51-80a0bb1d75b4"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -120,7 +120,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="748ea288-5470-458b-9823-70c932ced2cd"/>
+          <ID name="" mc="Infrastructure.Note" uid="7b05eede-5498-4878-9777-772a5c79b2b1"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -134,7 +134,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="5754d238-88f3-4cfe-956e-f07102b22742"/>
+          <ID name="" mc="Infrastructure.Note" uid="50e9f81a-c10b-4230-b107-b2709d51fb88"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -148,7 +148,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8c6cd7cb-db53-4b49-9f30-5a8a819d62f7"/>
+          <ID name="" mc="Infrastructure.Note" uid="5b119246-3017-4923-b63e-c484dfbdb968"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

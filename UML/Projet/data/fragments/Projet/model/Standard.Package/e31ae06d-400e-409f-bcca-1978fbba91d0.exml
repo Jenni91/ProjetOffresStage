@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Supp compte" version="4">
+  <OBJECT>
+    <ID name="Activity Supp compte" mc="Standard.Package" uid="e31ae06d-400e-409f-bcca-1978fbba91d0"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activity Supp compte]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Modifier compte" mc="Standard.Activity" uid="64340d7f-04c3-4fe5-9bb0-47530841afaf"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

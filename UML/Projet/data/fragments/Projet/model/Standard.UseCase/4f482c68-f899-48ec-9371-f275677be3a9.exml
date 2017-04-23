@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Créer une offre de stage" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="S'inscrire" version="4">
   <OBJECT>
-    <ID name="Créer une offre de stage" mc="Standard.UseCase" uid="6e73ce0a-332b-404b-94d4-1334075343af"/>
-    <PID name="projet" mc="Standard.Package" uid="031da60f-e5d8-47bd-8b7b-6c69647c28e2"/>
+    <ID name="S'inscrire" mc="Standard.UseCase" uid="4f482c68-f899-48ec-9371-f275677be3a9"/>
+    <PID name="Use case" mc="Standard.Package" uid="031da60f-e5d8-47bd-8b7b-6c69647c28e2"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[Créer une offre de stage]]></ATT>
+      <ATT name="Name"><![CDATA[S'inscrire]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="Descriptor">
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="0446b171-9815-4be0-b0d3-f3ea914ffbcb"/>
+          <ID name="" mc="Infrastructure.Note" uid="1a8885e2-8795-48f8-9526-2d7e0e730738"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -29,7 +29,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="8bef229d-456e-4fc9-b035-7f7de66923e0"/>
+          <ID name="" mc="Infrastructure.Note" uid="1f9edd3b-4030-45b7-a5c8-640468bb2d1d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -43,7 +43,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="bd630cc1-035c-477b-b209-b863496dba85"/>
+          <ID name="" mc="Infrastructure.Note" uid="d8bc58c3-5832-49c2-a053-ae78b9f4e52d"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -57,7 +57,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="5ce9a615-0aaf-4480-87fa-2b2c9d322a67"/>
+          <ID name="" mc="Infrastructure.Note" uid="5b8cb3cc-437c-4927-aeec-11b443d1a53b"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -71,7 +71,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="f2766f0e-45a5-41ce-8a2e-63f6647ee5fe"/>
+          <ID name="" mc="Infrastructure.Note" uid="834c3e5c-a5e6-42bf-b73e-89d6bb103d09"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
@@ -85,7 +85,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="" mc="Infrastructure.Note" uid="24e5bcac-ff64-4e38-ba96-29bda92132c7"/>
+          <ID name="" mc="Infrastructure.Note" uid="216ff131-e988-4262-9d2b-6990b1998aeb"/>
           <ATTRIBUTES>
             <ATT name="Content"><![CDATA[...]]></ATT>
             <ATT name="MimeType"><![CDATA[text/plain]]></ATT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Supp offre" version="4">
+  <OBJECT>
+    <ID name="Activity Supp offre" mc="Standard.Package" uid="5277fc1f-c4b0-4a98-a8e2-6addf037f8db"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activity Supp offre]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Supression offre" mc="Standard.Activity" uid="e3eb2105-608b-40e6-8f33-3048da151b2a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Activity Modif offre" version="4">
+  <OBJECT>
+    <ID name="Activity Modif offre" mc="Standard.Package" uid="954e4666-7320-4287-9d54-38a89e4817aa"/>
+    <PID name="Projet" mc="Standard.Package" uid="2b40d777-29cc-4fcb-b421-ac85ac9a9a26"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Activity Modif offre]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Modif offre" mc="Standard.Activity" uid="97fb70cb-02c7-492c-9f39-7b29536edaa0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
